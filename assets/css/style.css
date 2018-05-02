@@ -1,0 +1,8 @@
+html,body {
+  height: 100vh;
+}
+
+body {
+  background-image: url('assets/images/space_sky.png');
+  background: red;
+}
