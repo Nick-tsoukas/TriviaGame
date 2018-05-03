@@ -1,14 +1,78 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-    <link rel="stylesheet" href="assets/css/style.css">
-  </head>
-  <body>
 
-  <img src="assets/images/space_sky.png" alt="">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <div class="question_box">
+    <h1 style="color: white;">Hello</h1>
+    <form action="grade.php" method="post" id="quiz">
+
+      <li class="show" id="q1">
+        <h3>How Old is the Universe</h3>
+
+        <div>
+          <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
+          <label for="question-1-answers-A"><span class="letter">A)</span> 100 Years old </label>
+        </div>
+
+        <div>
+          <input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" />
+          <label for="question-1-answers-B"><span class="letter">B)</span>  500 Million Years old</label>
+        </div>
+
+        <div>
+          <input type="radio" name="question-1-answers" id="question-1-answers-C" value="C" />
+          <label for="question-1-answers-C"><span class="letter">C)</span> 10 Million Years old</label>
+        </div>
+
+        <div>
+          <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
+          <label for="question-1-answers-D"><span class="letter">D)</span> 13.8 Billion Years old</label>
+        </div>
+
+      </li>
+      <input class="myInput" id="answerQ" class="black" type="submit" value="Send">
+      <div id="rightOrWrong">
+
+      </div>
+      <li class="hide">
+        <h3>How Old is the Universe</h3>
+
+        <div>
+          <input type="radio" name="question-2-answers" id="question-2-answers-A" value="A" />
+          <label for="question-2-answers-A"><span class="letter">A)</span> 100 Years old </label>
+        </div>
+
+        <div>
+          <input type="radio" name="question-2-answers" id="question-2-answers-B" value="B" />
+          <label for="question-2-answers-B"><span class="letter">B)</span>  500 Million Years old</label>
+        </div>
+
+        <div>
+          <input type="radio" name="question-2-answers" id="question-2-answers-C" value="C" />
+          <label for="question-2-answers-C"><span class="letter">C)</span> 10 Million Years old</label>
+        </div>
+
+        <div>
+          <input type="radio" name="question-2-answers" id="question-2-answers-D" value="D" />
+          <label for="question-2-answers-D"><span class="letter">D)</span> 13.8 Billion Years old</label>
+        </div>
+        <input class="myInput" id="answerQ" class="black" type="submit" value="Send">
+      </li>
+
+    </form>
+  </div>
+  <div id="time">
+    <h1>Clock</h1>
+  </div>
 
   <script src="assets/javascript/app.js" charset="utf-8"></script>
-  </body>
+</body>
+
 </html>
